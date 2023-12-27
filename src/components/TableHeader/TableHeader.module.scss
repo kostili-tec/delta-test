@@ -1,0 +1,9 @@
+.TableHeader {
+  display: grid;
+  grid-template-columns: 400px repeat(2, 150px) 200px;
+  gap: 10px;
+}
+
+.ItemBlue {
+  background: #edf8ff;
+}

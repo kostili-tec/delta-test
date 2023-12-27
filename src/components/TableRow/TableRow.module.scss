@@ -1,0 +1,6 @@
+.TableRow {
+  display: grid;
+  grid-template-columns: 400px repeat(2, 130px) 170px;
+  gap: 10px;
+  height: 40px;
+}
