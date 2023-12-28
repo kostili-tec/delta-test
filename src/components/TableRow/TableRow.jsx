@@ -20,7 +20,7 @@ const TableRow = ({ tableData }) => {
 
   const options = {
     title: {
-      text: '',
+      text: tableData.indicator,
     },
     accessibility: {
       enabled: false,
