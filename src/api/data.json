@@ -1,0 +1,62 @@
+[
+  {
+    "indicator": "Выручка, руб",
+    "today": { "cost": 500521 },
+    "yesterday": { "cost": 480521, "percent": 4 },
+    "weekDay": { "cost": 4805121, "status": "bad" }
+  },
+  {
+    "indicator": "Наличные",
+    "today": { "cost": 300000 },
+    "yesterday": { "cost": 300000, "percent": 0 },
+    "weekDay": { "cost": 300000, "status": "unchanged" }
+  },
+  {
+    "indicator": "Безналичный расчет",
+    "today": { "cost": 100000 },
+    "yesterday": { "cost": 100000, "percent": 0 },
+    "weekDay": { "cost": 100000, "status": "unchanged" }
+  },
+  {
+    "indicator": "Кредитные карты",
+    "today": { "cost": 100521 },
+    "yesterday": { "cost": 100521, "percent": 0 },
+    "weekDay": { "cost": 100521, "status": "unchanged" }
+  },
+  {
+    "indicator": "Средний чек, руб",
+    "today": { "cost": 1300 },
+    "yesterday": { "cost": 900, "percent": 44 },
+    "weekDay": { "cost": 900, "status": "good" }
+  },
+  {
+    "indicator": "Средний гость, руб",
+    "today": { "cost": 1200 },
+    "yesterday": { "cost": 800, "percent": 50 },
+    "weekDay": { "cost": 800, "status": "good" }
+  },
+  {
+    "indicator": "Удаления из чека (после оплаты), руб",
+    "today": { "cost": 1000 },
+    "yesterday": { "cost": 1100, "percent": -9 },
+    "weekDay": { "cost": 900, "status": "good" }
+  },
+  {
+    "indicator": "Удаления из чека (до оплаты), руб",
+    "today": { "cost": 1300 },
+    "yesterday": { "cost": 1300, "percent": 0 },
+    "weekDay": { "cost": 900, "status": "good" }
+  },
+  {
+    "indicator": "Количество чеков",
+    "today": { "cost": 34 },
+    "yesterday": { "cost": 36, "percent": -6 },
+    "weekDay": { "cost": 34, "status": "unchanged" }
+  },
+  {
+    "indicator": "Количество гостей",
+    "today": { "cost": 34 },
+    "yesterday": { "cost": 36, "percent": -6 },
+    "weekDay": { "cost": 32, "status": "good" }
+  }
+]
