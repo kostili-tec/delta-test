@@ -1,12 +1,10 @@
-import cls from './TableHeader.module.scss';
-
 const TableHeader = () => {
   return (
     <div className="TableRow">
-      <div className={cls.HeaderCell}>Показатель</div>
-      <div className={`${cls.HeaderCell} ${cls.ItemBlue}`}>Текущий день</div>
-      <div className={cls.HeaderCell}>Вчера</div>
-      <div className={cls.HeaderCell}>Этот день недели</div>
+      <div className="HeaderCell">Показатель</div>
+      <div className="HeaderCell CellToday">Текущий день</div>
+      <div className="HeaderCell">Вчера</div>
+      <div className="HeaderCell">Этот день недели</div>
     </div>
   );
 };
