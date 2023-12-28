@@ -26,15 +26,22 @@ const TableRow = ({ tableData }) => {
       enabled: false,
     },
 
+    legend: {
+      enabled: false,
+    },
+    yAxis: {
+      title: {
+        text: '',
+      },
+    },
     series: [
       {
         data: data,
         color: 'green',
         dataLabels: {
           enabled: true,
-          format: '{point.name}: {point.y}', // Формат вывода данных
+          format: '{point.name}: {point.y}',
           style: {
-            // Стили для текста
             color: 'black',
           },
         },
