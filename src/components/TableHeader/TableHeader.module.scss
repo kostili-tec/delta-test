@@ -1,0 +1,16 @@
+.TableHeader {
+  display: grid;
+  grid-template-columns: 400px repeat(2, 150px) 200px;
+  gap: 10px;
+}
+
+.HeaderCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.ItemBlue {
+  background: #edf8ff;
+}

@@ -1,5 +1,11 @@
+import Table from '@/components/Table/Table';
+
 const Main = () => {
-  return <div>Main</div>;
+  return (
+    <div>
+      <Table />
+    </div>
+  );
 };
 
 export default Main;
