@@ -16,6 +16,13 @@
   height: 40px;
 }
 
+.HeaderCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
 .Cell {
   display: flex;
   justify-content: flex-end;
@@ -69,4 +76,8 @@
 
 .CellBadPercent {
   color: red;
+}
+
+.Pointer {
+  cursor: pointer;
 }
