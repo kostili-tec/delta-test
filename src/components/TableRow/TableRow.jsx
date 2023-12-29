@@ -35,6 +35,7 @@ const TableRow = ({ tableData }) => {
     series: [
       {
         data: data,
+        name: tableData.indicator,
         color: 'green',
         dataLabels: {
           enabled: true,
